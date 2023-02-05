@@ -1,2 +1,0 @@
-# Dedsec
-My dev repo
