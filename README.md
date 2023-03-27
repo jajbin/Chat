@@ -15,7 +15,7 @@ Here's a brief overview of the different parts of the script:
     The do_help method is called when the user enters the help command. It outputs a list of available commands.
     The final if statement checks whether the script is being run as the main program, and if so, creates an instance of the SSHBruteForceShell class and enters the shell loop with the cmdloop() method.
 
-To use this script, you need to have Python installed on your system. Follow these steps to run the script in the command line:
+#To use this script, you need to have Python installed on your system. Follow these steps to run the script in the command line:
 
     Save the script to a file with a .py extension, for example ssh_brute_force.py.
 
@@ -32,5 +32,12 @@ To use this script, you need to have Python installed on your system. Follow the
     If the script successfully connects to the SSH server with a given password, it will output the credentials to a file named credentials.txt.
 
     Type exit to exit the script.
+    
+ #Disclaimer about the disuse of this script
+This SSH brute force script is for educational purposes only. The use of this script to gain unauthorized access to a system is illegal and strictly prohibited. It is your responsibility to ensure that you have the necessary permissions to test the security of a system before using this script.
+
+Using this script to attempt to gain unauthorized access to a system without the owner's consent may result in legal consequences. Additionally, using this script on a system that you do not have permission to test may cause damage to the system and result in unintended consequences.
+
+The author of this script is not responsible for any damages or legal issues that may arise from the misuse of this script. Use it at your own risk and discretion.
 
 Note: The script requires the paramiko and colorama libraries to be installed. If you haven't already installed them, you can install them using pip. For example, pip install paramiko colorama.
