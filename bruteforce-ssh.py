@@ -80,6 +80,7 @@ class SSHBruteForceShell(cmd.Cmd):
         print("Available commands:")
         print("- connect [hostname] [username] [password file]: Connect to an SSH server and try to brute-force the password.")
         print("- exit: Exit the program.")
+        print("- example- connect 172.23.231.211 root passlist.txt")
 
 if __name__ == "__main__":
     SSHBruteForceShell().cmdloop()
