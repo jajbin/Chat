@@ -5,10 +5,10 @@ To use the script, simply run it in a Python environment, and then use the conne
 
 For kali linux
 # Installing and requirements
-$ sudo git clone https://github.com/jajbin/sshbruteforce.git 
-$ cd sshbruteforce
-$ sudo pip install -r requirements.txt
-$ python3 bruteforce-ssh.py
+     sudo git clone https://github.com/jajbin/sshbruteforce.git 
+     cd sshbruteforce
+     sudo pip install -r requirements.txt 
+     python3 bruteforce-ssh.py
 
 Here's a brief overview of the different parts of the script:
 
