@@ -3,7 +3,8 @@ This is a Python script that provides a simple shell for brute-forcing SSH passw
 
 To use the script, simply run it in a Python environment, and then use the connect command to attempt to connect to an SSH server with a given hostname, username, and password file. The password file should contain one password per line. If a successful password is found, the script will output the credentials to a file named credentials.txt. The exit command can be used to exit the script.
 
-# kali linux
+For kali linux
+# Installing and requirements
 $ sudo git clone https://github.com/jajbin/sshbruteforce.git 
 $ cd sshbruteforce
 $ sudo pip install -r requirements.txt
